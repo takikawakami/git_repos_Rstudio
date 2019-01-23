@@ -15,8 +15,10 @@ plot(cars)
 
 
 ```{r}
-plot(iris$Sepal.Length, iris$Sepal.Width, col="green")
+plot(iris)
+```
 
-
+```{r}
+plot(iris$Sepal.Length, iris$Sepal.Width, col="red")
 ```
 
