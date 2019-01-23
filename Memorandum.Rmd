@@ -1,0 +1,19 @@
+---
+title: "Memorandum"
+output: html_notebook
+---
+
+This is to keep my working note in my early life at Embark
+
+
+# Retrieve data at Embarkvet admin:
+SQL command to download a list of databases (https://my.embarkvet.com/admin/run-sql)
+
+```{sql}
+SELECT 
+* 
+FROM INFORMATION_SCHEMA.TABLES 
+WHERE 
+TABLE_TYPE='BASE TABLE'
+```
+
